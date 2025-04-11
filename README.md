@@ -9,7 +9,7 @@ A simple Node.js web application that estimates how long it takes for a user to 
 ## How to Run
 
 1. **Clone the Repository**:
-   - git clone https://github.com/YourUser/nodejs-project.git
+   - git clone https://github.com/colinward77/nodejs-project.git
 
    - cd nodejs-project
 
