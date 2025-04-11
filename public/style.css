@@ -1,0 +1,166 @@
+/* public/style.css */
+
+/* Basic reset/look */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  /* Buttons */
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none; /* for <a> styled as btn */
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Outline style button */
+  .btn-outline {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+  .btn-outline:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Navigation / logout link */
+  .logout-link {
+    float: right;
+    margin-top: -40px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 8px;
+  }
+  .logout-link:hover {
+    color: #0056b3;
+  }
+  
+  /* Boxes for info or forms */
+  .info-box, .form-container {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Form styling */
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .auth-form label {
+    font-weight: bold;
+  }
+  .auth-form input, 
+  .auth-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Additional text styling for home page */
+  .intro-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+  }
+  .home-buttons {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Weather icons */
+  .weather-icon {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+  }
+  
+  /* Sunburn result area */
+  #sunburn-results {
+    margin-top: 10px;
+  }
+  
+  /* Footer text in forms */
+  .form-footer {
+    margin-top: 15px;
+    font-size: 0.9em;
+  }
+  .form-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .form-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* HERO SECTION (for index.html) */
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* full viewport height */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.35)
+      ),
+      /* background image url*/
+      url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-overlay {
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+  }
+  
+  .hero-overlay h1 {
+    font-size: 3em;
+    margin: 0 0 20px 0;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons .btn {
+    margin: 0 10px;
+    font-size: 1em;
+    padding: 12px 18px;
+  }
+  
