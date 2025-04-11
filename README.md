@@ -13,10 +13,13 @@ A simple Node.js web application that estimates how long it takes for a user to 
 
    cd nodejs-project
 
+I recommend cloning it in VSCode, as that's what this project was developed in.
+
 Install Dependencies:
   npm install
 
-(This should install packages like Express, bcrypt, axios, etc.)
+This should install packages like Express, bcrypt, axios, etc. If this does not work,
+try installing each dependency manually with npm install (insert list of dependencies found in package.json)
 
 Start the Server:
   node server.js
