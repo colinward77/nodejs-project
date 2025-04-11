@@ -206,8 +206,8 @@ app.post('/api/sunburn-time', (req, res) => {
  * Returns time in minutes
  */
 function estimateSunburnTime(uvIndex, hairColor, eyeColor, skinType, cloudCoverage) {
-  // Base of 120 minutes (2 hours)
-  let baseTime = 120;
+  // Base time
+  let baseTime = 15;
 
   // Hair color
   switch ((hairColor || '').toLowerCase()) {
